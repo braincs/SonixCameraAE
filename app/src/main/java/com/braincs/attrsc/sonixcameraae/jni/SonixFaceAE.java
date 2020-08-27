@@ -10,4 +10,6 @@ public class SonixFaceAE {
     }
 
     public native static void sonixCamRegRead(byte[] data);
+
+    public native static void autoExplosure(int startX, int startY, int width, int height);
 }
